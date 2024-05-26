@@ -1,10 +1,15 @@
 # Welcome to Our New Course on MLOps!
 
 Hello everyone, and welcome to our exciting new course focused on putting machine learning into production. In this course, we will delve into the world of MLOps—what it is, why it matters, and how to implement it effectively.
+![image](https://github.com/Knavneet/MLOPS/assets/28335200/1d6114fe-92aa-4fdd-8f5f-508e6a996bcb)
+
 
 ## What is MLOps?
 
 MLOps, short for Machine Learning Operations, is a set of best practices designed to deploy and maintain machine learning models in production reliably and efficiently. If you search "MLOps" on your favorite search engine, you'll likely come across a comprehensive Wikipedia page. There, you'll find that MLOps involves a combination of tools and practices that streamline the integration of machine learning models into real-world applications.
+
+![image](https://github.com/Knavneet/MLOPS/assets/28335200/f35ee442-b5eb-4d8e-9d0e-56378a0f3bec)
+
 
 ## Course Focus
 
@@ -13,6 +18,9 @@ Throughout this course, we will cover these best practices and explore the tools
 ### Course Example: Predicting Taxi Ride Duration
 
 Imagine you need to hire a taxi. You open your app, input your current location and your desired destination, and you want to know how long the trip will take. This prediction task will be our case study throughout the course.
+
+<img width="606" alt="image" src="https://github.com/Knavneet/MLOPS/assets/28335200/e57e9bfa-2dcc-46be-a91c-09ae901ad207">
+
 
 ## Best Practices in MLOps
 
@@ -34,8 +42,3 @@ The final stage is operation, where we deploy the model to a production environm
 
 Deployment is not the end of the journey. Once the model is live, we need to monitor its performance to ensure it continues to provide accurate predictions and doesn't degrade over time. MLOps practices help us automate these tasks, making it easier to retrain models, deploy updates, and monitor quality.
 
-## Next Steps
-
-In the next video, we'll prepare the environment for our course. I'll demonstrate how to set up a virtual machine, though using a cloud-based computer is optional. We'll cover the steps to create a virtual environment for our machine learning projects.
-
-Stay tuned, and I'll see you soon as we dive deeper into the world of MLOps!
