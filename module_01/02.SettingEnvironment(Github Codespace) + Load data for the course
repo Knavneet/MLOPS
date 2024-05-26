@@ -1,1 +1,58 @@
 
+- **Introduction**: Alexey talks about how to use GitHub Codespaces as an alternative to renting a virtual machine on the cloud.
+- **Benefits**: Codespaces is simpler and faster, allowing more coverage in a shorter time.
+- **Requirements**: Need a GitHub account.
+- **Creating Repository**:
+  - Go to GitHub account.
+  - Click on "New repository".
+  - Name it (e.g., mlopsZoomCamp).
+  - Add README file and .gitignore template for Python.
+  - Set the repository to the public for homework submission.
+- **Setting Up Codespaces**:
+  - Click on "Code" and select the Codespaces tab.
+  - Click "Create codespace on Main".
+  - Environment is prepared with Visual Studio Code running in the browser.
+  - Docker and Docker Compose are pre-installed.
+- **Terminal Usage**:
+  - Use terminal in Codespaces to run commands.
+  - Docker is configured (run `docker run hello-world`).
+- **Local VS Code Setup**:
+  - For port forwarding and running certain applications like Jupyter Notebooks, use Visual Studio Code desktop.
+  - Install Visual Studio Code desktop and the GitHub Codespaces extension.
+- **Connecting to Codespaces from Local VS Code**:
+  - Open the repository in local VS Code.
+  - Ensure GitHub Codespaces extension is installed.
+- **Editing and Committing Changes**:
+  - Open terminal in VS Code (Ctrl + ~).
+  - Make changes to files (e.g., README).
+  - Commit and push changes to GitHub.
+- **Installing Conda**:
+  - Download and install Anaconda using a provided command.
+  - Accept license agreement and default installation path.
+  - Initialize Anaconda in the terminal.
+- **Using Anaconda**:
+  - Open a new terminal window to use the installed Python from Anaconda.
+  - Verify Anaconda Python installation.
+- **Setting Up Jupyter Notebook**:
+  - Create a directory for the course (e.g., `mkdir Z1-intro`).
+  - Start Jupyter Notebook (`jupyter notebook`).
+  - Port forwarding in Codespaces allows accessing Jupyter from the local browser.
+- **Running Jupyter Notebook**:
+  - Open the forwarded port link in the browser.
+  - Create a new notebook for homework.
+- **Working with Data**:
+  - Import necessary libraries (e.g., pandas).
+  - Install additional libraries if needed (e.g., `pip install pyarrow`).
+  - Load and process data files (e.g., parquet files).
+- **Committing Homework**:
+  - Use Git commands to add, commit, and push homework solutions.
+  - Verify changes on GitHub.
+- **Stopping Codespaces**:
+  - Codespaces can detect inactivity and stop automatically.
+  - Manually stop Codespaces if needed from the GitHub interface.
+  - Preserve uncommitted changes or delete the Codespace to remove configurations.
+- **Codespaces Pricing**:
+  - Free up to 120 hours, with additional hours available for purchase if needed.
+- **Course Configuration**:
+  - Configure AWS and other tools similarly as on a local instance.
+  - Install necessary packages for course modules.
